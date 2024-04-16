@@ -1,0 +1,25 @@
+*{
+    background-color: bisque;
+}
+
+.tabla{
+    position: fixed;
+    top: 40vh;
+    left: 52vw;
+    width: 15vw;
+    height: 15vh;
+}
+
+.ayuda{
+    position: fixed;
+    border: 1px solid black;
+    top: 80vh;
+    left: 70vw;
+    width: 5vw;
+    height: 5vh;
+}
+
+
+td{
+    border: 3px solid rebeccapurple;
+}
