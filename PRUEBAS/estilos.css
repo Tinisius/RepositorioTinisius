@@ -1,25 +1,12 @@
-*{
-    background-color: bisque;
+* {
+    background-color: #a35327;
 }
 
-.tabla{
-    position: fixed;
-    top: 40vh;
-    left: 52vw;
-    width: 15vw;
-    height: 15vh;
+h1, h2,h3 {
+    font-family: Comic Sans MS;
+    color: aliceblue;
 }
 
-.ayuda{
-    position: fixed;
-    border: 1px solid black;
-    top: 80vh;
-    left: 70vw;
-    width: 5vw;
-    height: 5vh;
-}
-
-
-td{
-    border: 3px solid rebeccapurple;
+hr{
+    color: burlywood;
 }
