@@ -1,3 +1,5 @@
 *{
-  background-image:source="kanye.webp";
+  background-image:url("kanye.webp");
+  background-size:cover;
+  background-attachement:fixed;
 }
