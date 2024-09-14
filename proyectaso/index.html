@@ -7,6 +7,38 @@
     <title>SECTA SUPREMA</title>
 </head>
 <body>
+    <pre>
+type
+  Tarray=array of string;
+  arr=array[1..3] of string;
+  Garr=array[1..4] of arr;
+
+var
+  peke:arr;
+  GRANDE:Garr;
+
+procedure aWrite(array1:array of arr);
+    var
+      i,j:byte;
+    begin
+       for i:=low(array1) to high(array1) do
+       begin
+           write('[');
+           for j:=low(array1[i]) to high(array1[i]) do
+           begin
+             write('(',array1[i][j]);
+             if j<high(array1[j]) then
+                write('),')
+             else
+                write(')');
+           end;
+           if i<high(array1) then
+                write('],')
+             else
+                write(']');
+         end;
+    end;
+    </pre>
     <h1>SECTA SUPREMA DE TINISIUS</h1>
     <form id="messageForm">
         <label for="message">Ingrese su nombre para unirse a la secta:</label><br>
